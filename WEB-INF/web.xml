@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>TomcatHelloWorldExample</servlet-name>
+    <servlet-class>mypkg.HelloWorldExample</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TomcatHelloWorldExample</servlet-name>
+    <url-pattern>/hello_example</url-pattern>
+</servlet-mapping>
